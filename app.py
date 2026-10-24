@@ -17,7 +17,7 @@ st.set_page_config(
 # --------------------------------------------------
 @st.cache_resource
 def load_model():
-    return joblib.load("traffic_volume_rf_pipeline.joblib")
+    return joblib.load("traffic_volume_rf_small.joblib")
 
 
 try:
