@@ -179,3 +179,6 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+traffic_volume_rf_pipeline.joblib
+.venv/
+__pycache__/
